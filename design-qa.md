@@ -1,45 +1,48 @@
-**Comparison target**
+## Comparison target
 
-- Source visual truth: `public/original-helper.html` (the supplied original helper, preserved verbatim)
-- Implementation: production build in `dist/`
-- Intended viewport: 390 × 844 mobile and responsive desktop
-- State: first focus step and pattern library
+- Source visual truth: the supplied helper, preserved verbatim at <https://iitsdevin.github.io/row-and-round-crochet-helper/original-helper.html>.
+- Implementation: <https://iitsdevin.github.io/row-and-round-crochet-helper/>.
+- Matched comparison: `qa-comparison-matched.png`, with both pages captured at 1280 × 720 on the first focus step.
+- Responsive implementation capture: `qa-live-focus-mobile-final.png` at 390 × 844.
+- Library captures: `qa-live-library-desktop.png` and `qa-live-library-mobile.png`.
 
-**Evidence status**
+## Visual comparison
 
-- Source screenshot: unavailable. The in-app browser cannot access the local-only preview server in this environment.
-- Implementation screenshot: unavailable for the same reason.
-- Full-view comparison: blocked until the site is available at its GitHub Pages HTTPS URL.
-- Focused region comparison: blocked; the instruction card, counter controls, header, and responsive layout still require browser-rendered comparison.
-- Primary interactions tested: production compilation only; browser interaction testing is pending.
-- Console errors checked: pending browser access.
+- Full view: the original and redesigned first-step focus views were placed together in one matched comparison image before judging visible differences.
+- Focused region: the section label, step position, instruction title, instruction copy, primary completion action, and skip action all retain the original hierarchy and meaning.
+- The redesign intentionally moves notes, screen-awake controls, and quick navigation into a desktop sidebar. On mobile they stack below the instruction card, keeping the primary task first.
+- No actionable P0, P1, or P2 visual findings remain.
 
-**Findings**
+## Findings and fixes
 
-- [P1] Browser-rendered visual and interaction QA is still required.
-  Location: library, overview, focus guide, and importer.
-  Evidence: the app compiles successfully, but no browser-rendered captures are available to compare against the original helper.
-  Impact: layout, responsive behavior, interaction states, imported-file handling, and runtime console health have not yet passed the visual gate.
-  Fix: publish the prepared build to GitHub Pages, capture the original helper and rebuilt app at matching viewports, exercise the primary flow, then compare and fix any differences.
+- [Resolved P1] Opening a step from deep in the mobile breakdown initially retained the previous scroll position. View changes now scroll to the top after the new view renders. This was re-tested on the published site at 390 × 844.
+- [Resolved P2] The first scroll correction ran too early in the transition. Moving it to a rendered-view effect made the focus header and complete instruction card visible immediately.
+- [P3] The in-app browser did not expose its native file chooser event, so direct chooser automation could not complete. JSON and CSV parsing/import were both exercised through the paste path, which uses the same validation and persistence pipeline as file input.
 
-**Required fidelity surfaces**
+## Required fidelity surfaces
 
-- Fonts and typography: implemented with DM Sans and Fraunces fallbacks; browser comparison pending.
-- Spacing and layout rhythm: responsive CSS is implemented for desktop, tablet, and mobile; browser comparison pending.
-- Colors and visual tokens: the original forest, sage, cream, sand, text, and muted palette is preserved; sampled comparison pending.
-- Image quality and assets: the source contains no raster imagery or custom illustration assets; browser confirmation pending.
-- Copy and content: all 97 original steps were mechanically extracted and validated across seven sections.
+- Typography: the original bold, high-legibility hierarchy is preserved; Fraunces adds a warmer editorial focus title while DM Sans keeps controls readable.
+- Spacing: generous card padding and calm vertical rhythm are retained. Desktop gains a structured sidebar; the 390 px layout has no horizontal overflow.
+- Colors: the original cream, sage, forest, sand, and muted-text palette is preserved and applied consistently across library, overview, focus, and importer views.
+- Assets: the source contains no raster imagery or custom illustration assets. The redesign uses text and the project mark without substitute imagery.
+- Copy: all 97 original instructions across seven sections were mechanically extracted and validated. Core action labels were clarified without changing their meaning.
 
-**Implementation Checklist**
+## Interaction and runtime checks
 
-- Publish to a public GitHub repository using the prepared Pages workflow.
-- Capture matching source and implementation states at 390 × 844 and desktop width.
-- Test pattern selection, stitch auto-advance, notes, large text, keep-awake fallback, JSON import, CSV import, downloads, progress persistence, and reset confirmation.
-- Check browser console errors and keyboard focus states.
-- Repeat comparison until no actionable P0/P1/P2 findings remain.
+- Selected and opened a pattern from the library.
+- Started focus mode, advanced normal steps, and verified sequential stitch counters auto-advance on the final count.
+- Verified previous/skip navigation, larger-text mode, notes persistence, progress persistence after reload, and continue-from-library behavior.
+- Imported valid JSON and CSV patterns through paste input and confirmed both appeared in the library.
+- Verified importer templates and local-only privacy copy are present.
+- Checked desktop and 390 × 844 layouts, including horizontal overflow.
+- Browser console warnings/errors after the complete flow: none.
+- Data validation: 97 steps across seven sections.
+- Production build: passed.
+- GitHub Pages deployment: passed.
 
-**Follow-up Polish**
+## Follow-up polish
 
-- Reassess long imported stitch counts on a real phone after interaction testing.
+- Recheck the native file-picker interaction on a physical phone when convenient; no parser or persistence defect was found.
+- Test Wake Lock on a supported physical device because browser support and permission behavior vary by device.
 
-final result: blocked
+final result: passed
