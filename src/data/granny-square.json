@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "id": "granny-square-classic",
+  "name": "Classic Granny Square",
+  "description": "A guided five-round granny square using double-crochet clusters and chain spaces.",
+  "category": "Home & decor",
+  "difficulty": "Beginner",
+  "hook": "Choose a hook to suit your yarn",
+  "yarn": "Any yarn weight",
+  "source": "Built from the original Granny Square Crochet Guide",
+  "sectionCount": 7,
+  "steps": [
+    {
+      "id": "granny-square-1",
+      "section": "Centre ring",
+      "title": "Make a slip knot",
+      "instruction": "Make a slip knot.",
+      "count": null
+    },
+    {
+      "id": "granny-square-2",
+      "section": "Centre ring",
+      "title": "Chain 5",
+      "instruction": "Chain 5.",
+      "count": null
+    },
+    {
+      "id": "granny-square-3",
+      "section": "Centre ring",
+      "title": "Form the ring",
+      "instruction": "Insert the hook into the first chain and slip stitch to form a ring.",
+      "count": null
+    },
+    {
+      "id": "granny-square-4",
+      "section": "Round 1",
+      "title": "Chain 6",
+      "instruction": "Chain 6. The first 3 chains count as 1 double crochet; the remaining 3 chains form the first corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-5",
+      "section": "Round 1",
+      "title": "Double crochet ×3",
+      "instruction": "Work 3 double crochets into the centre ring.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-6",
+      "section": "Round 1",
+      "title": "Chain 3",
+      "instruction": "Chain 3 to form the second corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-7",
+      "section": "Round 1",
+      "title": "Double crochet ×3",
+      "instruction": "Work 3 double crochets into the centre ring.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-8",
+      "section": "Round 1",
+      "title": "Chain 3",
+      "instruction": "Chain 3 to form the third corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-9",
+      "section": "Round 1",
+      "title": "Double crochet ×3",
+      "instruction": "Work 3 double crochets into the centre ring.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-10",
+      "section": "Round 1",
+      "title": "Chain 3",
+      "instruction": "Chain 3 to form the fourth corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-11",
+      "section": "Round 1",
+      "title": "Double crochet ×2",
+      "instruction": "Work 2 double crochets into the centre ring.",
+      "count": 2
+    },
+    {
+      "id": "granny-square-12",
+      "section": "Round 1",
+      "title": "Join the round",
+      "instruction": "Slip stitch into the third chain of the beginning chain 6.",
+      "count": null
+    },
+    {
+      "id": "granny-square-13",
+      "section": "Round 1",
+      "title": "Check Round 1",
+      "instruction": "You should have four 3-double-crochet groups and four chain-3 corner spaces.",
+      "count": null
+    },
+    {
+      "id": "granny-square-14",
+      "section": "Round 2",
+      "title": "Chain 6",
+      "instruction": "Chain 6. The first 3 chains count as 1 double crochet; the remaining 3 chains form the starting corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-15",
+      "section": "Round 2",
+      "title": "Double crochet ×3",
+      "instruction": "Work 3 double crochets into the same starting corner space.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-16",
+      "section": "Round 2",
+      "title": "Chain 1",
+      "instruction": "Chain 1 before moving to the next corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-17",
+      "section": "Round 2",
+      "title": "Corner 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-18",
+      "section": "Round 2",
+      "title": "Corner 2: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-19",
+      "section": "Round 2",
+      "title": "Corner 2: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-20",
+      "section": "Round 2",
+      "title": "Chain 1",
+      "instruction": "Chain 1 before moving on.",
+      "count": null
+    },
+    {
+      "id": "granny-square-21",
+      "section": "Round 2",
+      "title": "Corner 3: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-22",
+      "section": "Round 2",
+      "title": "Corner 3: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-23",
+      "section": "Round 2",
+      "title": "Corner 3: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-24",
+      "section": "Round 2",
+      "title": "Chain 1",
+      "instruction": "Chain 1 before moving on.",
+      "count": null
+    },
+    {
+      "id": "granny-square-25",
+      "section": "Round 2",
+      "title": "Corner 4: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-26",
+      "section": "Round 2",
+      "title": "Corner 4: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-27",
+      "section": "Round 2",
+      "title": "Corner 4: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-28",
+      "section": "Round 2",
+      "title": "Chain 1",
+      "instruction": "Chain 1 before moving on.",
+      "count": null
+    },
+    {
+      "id": "granny-square-29",
+      "section": "Round 2",
+      "title": "Finish starting corner: double crochet ×2",
+      "instruction": "Work 2 double crochets into the starting corner space.",
+      "count": 2
+    },
+    {
+      "id": "granny-square-30",
+      "section": "Round 2",
+      "title": "Join the round",
+      "instruction": "Slip stitch into the third chain of the beginning chain 6.",
+      "count": null
+    },
+    {
+      "id": "granny-square-31",
+      "section": "Round 2",
+      "title": "Check Round 2",
+      "instruction": "Each corner should contain 3 double crochets, chain 3, then 3 double crochets.",
+      "count": null
+    },
+    {
+      "id": "granny-square-32",
+      "section": "Round 3",
+      "title": "Chain 6",
+      "instruction": "Chain 6. The first 3 chains count as 1 double crochet; the remaining 3 chains form the starting corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-33",
+      "section": "Round 3",
+      "title": "Double crochet ×3",
+      "instruction": "Work 3 double crochets into the same starting corner space.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-34",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-35",
+      "section": "Round 3",
+      "title": "Side 1: double crochet ×3",
+      "instruction": "Work 3 double crochets into the chain-1 space on side 1.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-36",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-37",
+      "section": "Round 3",
+      "title": "Corner 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-38",
+      "section": "Round 3",
+      "title": "Corner 2: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-39",
+      "section": "Round 3",
+      "title": "Corner 2: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-40",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-41",
+      "section": "Round 3",
+      "title": "Side 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into the chain-1 space on side 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-42",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-43",
+      "section": "Round 3",
+      "title": "Corner 3: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-44",
+      "section": "Round 3",
+      "title": "Corner 3: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-45",
+      "section": "Round 3",
+      "title": "Corner 3: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-46",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-47",
+      "section": "Round 3",
+      "title": "Side 3: double crochet ×3",
+      "instruction": "Work 3 double crochets into the chain-1 space on side 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-48",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-49",
+      "section": "Round 3",
+      "title": "Corner 4: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-50",
+      "section": "Round 3",
+      "title": "Corner 4: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-51",
+      "section": "Round 3",
+      "title": "Corner 4: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-52",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-53",
+      "section": "Round 3",
+      "title": "Side 4: double crochet ×3",
+      "instruction": "Work 3 double crochets into the chain-1 space on side 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-54",
+      "section": "Round 3",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-55",
+      "section": "Round 3",
+      "title": "Finish starting corner: double crochet ×2",
+      "instruction": "Work 2 double crochets into the starting corner space.",
+      "count": 2
+    },
+    {
+      "id": "granny-square-56",
+      "section": "Round 3",
+      "title": "Join the round",
+      "instruction": "Slip stitch into the third chain of the beginning chain 6.",
+      "count": null
+    },
+    {
+      "id": "granny-square-57",
+      "section": "Round 3",
+      "title": "Check Round 3",
+      "instruction": "Each side should have one 3-double-crochet group between the corners.",
+      "count": null
+    },
+    {
+      "id": "granny-square-58",
+      "section": "Round 4",
+      "title": "Chain 6",
+      "instruction": "Chain 6. The first 3 chains count as 1 double crochet; the remaining 3 chains form the starting corner.",
+      "count": null
+    },
+    {
+      "id": "granny-square-59",
+      "section": "Round 4",
+      "title": "Double crochet ×3",
+      "instruction": "Work 3 double crochets into the same starting corner space.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-60",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-61",
+      "section": "Round 4",
+      "title": "Side 1, space 1: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 1, chain-1 space 1.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-62",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-63",
+      "section": "Round 4",
+      "title": "Side 1, space 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 1, chain-1 space 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-64",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-65",
+      "section": "Round 4",
+      "title": "Corner 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-66",
+      "section": "Round 4",
+      "title": "Corner 2: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-67",
+      "section": "Round 4",
+      "title": "Corner 2: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-68",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-69",
+      "section": "Round 4",
+      "title": "Side 2, space 1: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 2, chain-1 space 1.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-70",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-71",
+      "section": "Round 4",
+      "title": "Side 2, space 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 2, chain-1 space 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-72",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-73",
+      "section": "Round 4",
+      "title": "Corner 3: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-74",
+      "section": "Round 4",
+      "title": "Corner 3: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-75",
+      "section": "Round 4",
+      "title": "Corner 3: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 3.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-76",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-77",
+      "section": "Round 4",
+      "title": "Side 3, space 1: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 3, chain-1 space 1.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-78",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-79",
+      "section": "Round 4",
+      "title": "Side 3, space 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 3, chain-1 space 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-80",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-81",
+      "section": "Round 4",
+      "title": "Corner 4: double crochet ×3",
+      "instruction": "Work 3 double crochets into corner 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-82",
+      "section": "Round 4",
+      "title": "Corner 4: chain 3",
+      "instruction": "Chain 3.",
+      "count": null
+    },
+    {
+      "id": "granny-square-83",
+      "section": "Round 4",
+      "title": "Corner 4: double crochet ×3",
+      "instruction": "Work 3 more double crochets into corner 4.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-84",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-85",
+      "section": "Round 4",
+      "title": "Side 4, space 1: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 4, chain-1 space 1.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-86",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-87",
+      "section": "Round 4",
+      "title": "Side 4, space 2: double crochet ×3",
+      "instruction": "Work 3 double crochets into side 4, chain-1 space 2.",
+      "count": 3
+    },
+    {
+      "id": "granny-square-88",
+      "section": "Round 4",
+      "title": "Chain 1",
+      "instruction": "Chain 1.",
+      "count": null
+    },
+    {
+      "id": "granny-square-89",
+      "section": "Round 4",
+      "title": "Finish starting corner: double crochet ×2",
+      "instruction": "Work 2 double crochets into the starting corner space.",
+      "count": 2
+    },
+    {
+      "id": "granny-square-90",
+      "section": "Round 4",
+      "title": "Join the round",
+      "instruction": "Slip stitch into the third chain of the beginning chain 6.",
+      "count": null
+    },
+    {
+      "id": "granny-square-91",
+      "section": "Round 4",
+      "title": "Check Round 4",
+      "instruction": "Each side should have two 3-double-crochet groups between the corners.",
+      "count": null
+    },
+    {
+      "id": "granny-square-92",
+      "section": "Additional rounds",
+      "title": "Repeat the round structure",
+      "instruction": "For each new round, add one more 3-double-crochet group along every side.",
+      "count": null
+    },
+    {
+      "id": "granny-square-93",
+      "section": "Additional rounds",
+      "title": "Corner rule",
+      "instruction": "In each full corner, work 3 double crochets, chain 3, then 3 double crochets.",
+      "count": null
+    },
+    {
+      "id": "granny-square-94",
+      "section": "Additional rounds",
+      "title": "Side rule",
+      "instruction": "Work 3 double crochets into every chain-1 side space, with chain 1 between groups.",
+      "count": null
+    },
+    {
+      "id": "granny-square-95",
+      "section": "Finishing",
+      "title": "Cut the yarn",
+      "instruction": "Cut the yarn, leaving a tail.",
+      "count": null
+    },
+    {
+      "id": "granny-square-96",
+      "section": "Finishing",
+      "title": "Fasten off",
+      "instruction": "Pull the yarn through the final loop and tighten gently.",
+      "count": null
+    },
+    {
+      "id": "granny-square-97",
+      "section": "Finishing",
+      "title": "Weave in the tails",
+      "instruction": "Weave in the centre and finishing tails.",
+      "count": null
+    }
+  ]
+}

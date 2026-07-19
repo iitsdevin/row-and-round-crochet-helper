@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "My crochet pattern",
+  "description": "A short description of the finished project.",
+  "category": "Accessories",
+  "difficulty": "Beginner",
+  "hook": "5 mm",
+  "yarn": "DK / light worsted",
+  "source": "My own pattern notes",
+  "steps": [
+    {
+      "section": "Foundation",
+      "title": "Chain 20",
+      "instruction": "Chain 20 loosely.",
+      "count": 20
+    },
+    {
+      "section": "Row 1",
+      "title": "Turn your work",
+      "instruction": "Turn your work and skip the first chain.",
+      "count": null
+    },
+    {
+      "section": "Row 1",
+      "title": "Single crochet ×19",
+      "instruction": "Work one single crochet into each remaining chain.",
+      "count": 19
+    }
+  ]
+}

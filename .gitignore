@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.npm-cache/
+.pnpm-store/
+.tools/
+.DS_Store
+*.log
+src/App 2.jsx
+src/styles 2.css
