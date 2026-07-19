@@ -538,8 +538,9 @@ export function App() {
   useEffect(() => window.localStorage.setItem(STORAGE.progress, JSON.stringify(progress)), [progress]);
   useEffect(() => window.localStorage.setItem(STORAGE.active, activeId), [activeId]);
   useEffect(() => window.localStorage.setItem(STORAGE.textSize, JSON.stringify(largeText)), [largeText]);
+  useEffect(() => { window.scrollTo(0, 0); }, [view]);
 
-  const navigate = (nextView) => { setView(nextView); window.scrollTo(0, 0); };
+  const navigate = (nextView) => setView(nextView);
   const openPattern = (id) => { setActiveId(id); navigate("overview"); };
   const openFocus = (id = activeId) => { setActiveId(id); navigate("focus"); };
   const updateProgress = (patch) => setProgress((current) => ({ ...current, [activeId]: { index: 0, ticks: {}, notes: "", ...(current[activeId] || {}), ...patch } }));
