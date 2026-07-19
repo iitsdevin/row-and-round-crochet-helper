@@ -539,8 +539,9 @@ export function App() {
   useEffect(() => window.localStorage.setItem(STORAGE.active, activeId), [activeId]);
   useEffect(() => window.localStorage.setItem(STORAGE.textSize, JSON.stringify(largeText)), [largeText]);
 
-  const openPattern = (id) => { setActiveId(id); setView("overview"); window.scrollTo(0, 0); };
-  const openFocus = (id = activeId) => { setActiveId(id); setView("focus"); window.scrollTo(0, 0); };
+  const navigate = (nextView) => { setView(nextView); window.scrollTo(0, 0); };
+  const openPattern = (id) => { setActiveId(id); navigate("overview"); };
+  const openFocus = (id = activeId) => { setActiveId(id); navigate("focus"); };
   const updateProgress = (patch) => setProgress((current) => ({ ...current, [activeId]: { index: 0, ticks: {}, notes: "", ...(current[activeId] || {}), ...patch } }));
   const addPattern = (pattern) => { setImportedPatterns((items) => [...items.filter((item) => item.id !== pattern.id), pattern]); setActiveId(pattern.id); };
   const deletePattern = (id) => {
@@ -555,22 +556,22 @@ export function App() {
   };
 
   if (view === "focus") {
-    return <FocusView pattern={activePattern} state={progress[activeId]} onChange={updateProgress} onExit={() => setView("overview")} largeText={largeText} onLargeText={() => setLargeText((value) => !value)} />;
+    return <FocusView pattern={activePattern} state={progress[activeId]} onChange={updateProgress} onExit={() => navigate("overview")} largeText={largeText} onLargeText={() => setLargeText((value) => !value)} />;
   }
 
   return (
     <div className="app-shell">
       <header className="site-header">
-        <button className="brand-button" onClick={() => setView("library")}><span className="brand-mark" aria-hidden="true">R</span><span><strong>Row & Round</strong><small>Crochet helper</small></span></button>
+        <button className="brand-button" onClick={() => navigate("library")}><span className="brand-mark" aria-hidden="true">R</span><span><strong>Row & Round</strong><small>Crochet helper</small></span></button>
         <nav aria-label="Main navigation">
-          <button className={view === "library" ? "active" : ""} onClick={() => setView("library")}>Library</button>
-          <button className={view === "import" ? "active" : ""} onClick={() => setView("import")}>Import pattern</button>
+          <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}>Library</button>
+          <button className={view === "import" ? "active" : ""} onClick={() => navigate("import")}>Import pattern</button>
         </nav>
       </header>
 
-      {view === "library" && <Library patterns={patterns} progress={progress} onOpen={openPattern} onImport={() => setView("import")} onDelete={deletePattern} onExport={downloadJson} onContinue={openFocus} />}
-      {view === "overview" && <PatternOverview pattern={activePattern} state={progress[activeId]} onBack={() => setView("library")} onStart={() => openFocus()} onJump={(index) => { updateProgress({ index }); setView("focus"); }} onReset={resetProgress} onExport={() => downloadJson(activePattern)} />}
-      {view === "import" && <ImportView onBack={() => setView("library")} onImport={addPattern} />}
+      {view === "library" && <Library patterns={patterns} progress={progress} onOpen={openPattern} onImport={() => navigate("import")} onDelete={deletePattern} onExport={downloadJson} onContinue={openFocus} />}
+      {view === "overview" && <PatternOverview pattern={activePattern} state={progress[activeId]} onBack={() => navigate("library")} onStart={() => openFocus()} onJump={(index) => { updateProgress({ index }); navigate("focus"); }} onReset={resetProgress} onExport={() => downloadJson(activePattern)} />}
+      {view === "import" && <ImportView onBack={() => navigate("library")} onImport={addPattern} />}
 
       <footer className="site-footer"><span>Row & Round</span><span>Patterns and progress stay on this device.</span></footer>
     </div>
